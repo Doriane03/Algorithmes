@@ -21,9 +21,17 @@ rad.json
 #Test results file
 TestResults.xml
 #langage c
-bin/
-obj/
+# Dossiers de compilation
+/bin/
+/obj/
+
+# Fichiers temporaires générés par Code::Blocks
 *.o
 *.depend
 *.layout
+*.exe
+*.user
+
+# Optionnel : fichiers de backup
+*~
 
