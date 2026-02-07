@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//function
 int factorielle(int n){
     int i,f;
     if(n>0){
@@ -15,13 +16,7 @@ int factorielle(int n){
     }
 
 }
-
 int main()
 {
-    int a,w;
-    printf("entrez une valeur\n");
-    scanf("%d",&a);
-    w=factorielle(a);
-    printf("la factorielle de %d est:%d",a,w);
     return 0;
 }
