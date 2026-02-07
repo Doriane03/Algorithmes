@@ -35,3 +35,4 @@ TestResults.xml
 # Optionnel : fichiers de backup
 *~
 
+bin/Debug/
